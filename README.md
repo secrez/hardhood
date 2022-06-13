@@ -118,9 +118,14 @@ Hardhood uses the package @secrez/crypto from Secrez https://github.com/secrez/s
 
 ## History
 
-**0.1.0-beta.0**
+**0.1.0-beta.1**
 
 - Implements a first version working, with some issue showing the output by hardhat
+
+## TODO
+
+- Fix the issues with the log from hardhat
+- Add option to make the tool more flexible
 
 ## Copyright
 
