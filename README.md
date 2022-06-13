@@ -118,7 +118,7 @@ Hardhood uses the package @secrez/crypto from Secrez https://github.com/secrez/s
 
 ## Help
 
-If you run hardhood without parameters, an help will be displayed:
+If you run hardhood without parameters, a help screen will be displayed:
 
 ```
 Welcome to Hardhood v0.1.0-beta.1
