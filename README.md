@@ -52,13 +52,11 @@ To configure multiple keys, you can set up the config like
 
 ## Install
 
-For now, only a beta version is available:
+As always:
 
 ```
-npm install -g hardhood@0.1.0-beta.1
+npm install -g hardhood
 ```
-
-PS. The version 0.0.1 was just a scaffolding. Ignore it.
 
 ## Usage
 
@@ -98,7 +96,7 @@ hardhood -u contractOwner,validator,operator run scripts/deploy-pool.js --networ
 
 In this case it will expect 3 different passwords for the 3 different private keys. However, if you used the same password for all of them, you can press enter at the second and third request; then, Hardhood will try to use the first password for all the keys.
 
-### Notes
+### Cleaning
 
 To delete an existing keys, launch something like
 
@@ -121,7 +119,7 @@ Hardhood uses the package @secrez/crypto from Secrez https://github.com/secrez/s
 If you run hardhood without parameters, a help screen will be displayed:
 
 ```
-Welcome to Hardhood v0.1.0-beta.1
+Welcome to Hardhood v0.1.0
 A wrapper around hardhat to safely manage encrypted private keys
 
 For help look at
@@ -137,6 +135,10 @@ Options:
 ```
 
 ## History
+
+**0.1.0**
+
+- Remove the beta :-)
 
 **0.1.0-beta.1**
 

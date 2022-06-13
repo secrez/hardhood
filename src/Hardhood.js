@@ -137,7 +137,6 @@ class Hardhood {
 
   async executeCommand() {
     const args = ["hardhat"].concat(this.options.hardhatCmd);
-    console.info("npx", args.join(" "));
     const run = spawn("npx", args, {
       env: process.env,
       stdio: "inherit",
