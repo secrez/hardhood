@@ -58,7 +58,7 @@ For now, only a beta version is available:
 npm install -g hardhood@0.1.0-beta.1
 ```
 
-PS. The version 0.1.0 was just a scaffolding. Ignore it.
+PS. The version 0.0.1 was just a scaffolding. Ignore it.
 
 ## Usage
 
