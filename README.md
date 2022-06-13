@@ -82,7 +82,7 @@ npx hardhat run scripts/deploy-pool.js --network mainnet
 You can now launch instead
 
 ```
-hardhood -u contractOwner scripts/deploy-pool.js --network mainnet
+hardhood -u owner run scripts/deploy-pool.js --network mainnet
 ```
 
 Hardhood will look for the encrypted private key, retrieve it and
@@ -93,7 +93,7 @@ ask for the password you used to encrypt it. Then, it runs the hardhat script.
 If the script requires multiple keys, you can call it like
 
 ```
-hardhood -u contractOwner,validator,operator scripts/deploy-pool.js --network mainnet
+hardhood -u contractOwner,validator,operator run scripts/deploy-pool.js --network mainnet
 ```
 
 In this case it will expect 3 different passwords for the 3 different private keys. However, if you used the same password for all of them, you can press enter at the second and third request; then, Hardhood will try to use the first password for all the keys.
@@ -115,6 +115,26 @@ hardhood -r
 ## About security
 
 Hardhood uses the package @secrez/crypto from Secrez https://github.com/secrez/secrez
+
+## Help
+
+If you run hardhood without parameters, an help will be displayed:
+
+```
+Welcome to Hardhood v0.1.0-beta.1
+A wrapper around hardhat to safely manage encrypted private keys
+
+For help look at
+https://github.com/secrez/hardhood#readme
+
+Options:
+  -n, --new  [key]            Add a new key for current project
+  -u, --use  [keys] [cmd]     Use the listed keys (separated by comma) to run the command
+  --delete [keys]             Delete the listed keys
+  --reset                     Delete all the keys for the current project
+  -l, --list                  List the keys' names for the current project
+
+```
 
 ## History
 
