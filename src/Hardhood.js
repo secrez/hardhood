@@ -163,13 +163,14 @@ class Hardhood {
     if (!(await fs.pathExists(configPath))) {
       console.info("Error: no Hardhat found in this folder");
       process.exit(1);
-    } else {
-      const config = await fs.readFile(configPath, "utf8");
-      if (!/HARDHOOD_/.test(config)) {
-        console.info("This project does not look configured to use Hardhood");
-        process.exit(1);
-      }
     }
+    // else {
+    //   const config = await fs.readFile(configPath, "utf8");
+    //   if (!/HARDHOOD_/.test(config)) {
+    //     console.info("This project does not look configured to use Hardhood");
+    //     process.exit(1);
+    //   }
+    // }
     // we are ready to create the file, if it does not exist
     this.project = path.basename(currentDir);
     await this.readStore();
