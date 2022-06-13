@@ -62,7 +62,7 @@ PS. The version 0.1.0 was just a scaffolding. Ignore it.
 
 ## Usage
 
-Set up a new private key called contractOwner with
+Set up a new private key called owner with
 
 ```javascript
 hardhood -n owner
