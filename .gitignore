@@ -1,0 +1,10 @@
+node_modules
+tmp
+coverage
+.nyc_output
+
+# I prefere to use pnpm
+package-lock.json
+
+.hardhood-store.json
+hardhat.config.js
