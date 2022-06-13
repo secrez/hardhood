@@ -1,6 +1,6 @@
 {
   "name": "hardhood",
-  "version": "0.1.0-beta.0",
+  "version": "0.1.0-beta.1",
   "description": "A wrapped around hardhat to handle encrypted private keys",
   "homepage": "https://github.com/secrez/hardhood#readme",
   "bugs": {

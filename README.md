@@ -55,7 +55,7 @@ To configure multiple keys, you can set up the config like
 For now, only a beta version is available:
 
 ```
-npm install -g hardhood@0.1.0-beta.0
+npm install -g hardhood@0.1.0-beta.1
 ```
 
 PS. The version 0.1.0 was just a scaffolding. Ignore it.
