@@ -18,7 +18,7 @@ So, let's say you have in your `.env` file the private key of Hardhat's accounts
 PRIVATE_KEY=ac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
 ```
 
-You can modify your `hardhat-config.js` file, setting private ke~~~~ys like:
+You can modify your `hardhat-config.js` file, setting private keys like:
 
 ```
     ...
