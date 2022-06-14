@@ -2,6 +2,8 @@
 
 A wrapper around hardhat to safely manage encrypted private keys
 
+An more general alternative to manage encrypted data in .env files is [Cryptoenv](https://github.com/secrez/cryptoenv). It also works better with Hardhat :-!
+
 ## Why Hardhood?
 
 Hardhat is a fantastic tool. The problem is that it does not manage private keys. So, users put their keys in git-ignored `.env` files. That is very risky, because if someone changes the .gitignore the private keys can be exposed. Also, despite being in a git-ignored file, those private keys live on the hard drive, in plain text. That sounds terrifying to me.
