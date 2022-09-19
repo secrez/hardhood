@@ -2,7 +2,7 @@
 
 A wrapper around hardhat to safely manage encrypted private keys
 
-An more general alternative to manage encrypted data in .env files is [Cryptoenv](https://github.com/secrez/cryptoenv). It also works better with Hardhat :-!
+**This is deprecated. An more general alternative to manage encrypted data in .env files is [Cryptoenv](https://github.com/secrez/cryptoenv). It also works better with Hardhat :-!**
 
 ## Why Hardhood?
 
